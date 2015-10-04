@@ -1,6 +1,6 @@
 {
   "name": "flore",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "flux store",
   "main": "dist/index.js",
   "files": [
@@ -8,11 +8,8 @@
   ],
   "scripts": {
     "dist": "babel src -d dist",
-    "test": "mocha --compilers js:babel/register"
-  },
-  "devEngines": {
-    "node": "4.x",
-    "npm": "2.x"
+    "test": "mocha --compilers js:babel/register",
+    "prepublish": "npm run dist && npm test"
   },
   "author": "Josh Quintana (http://github.com/joshq00)",
   "license": "MIT",
