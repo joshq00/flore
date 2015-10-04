@@ -7,15 +7,15 @@
     "dist/"
   ],
   "scripts": {
-  	"dist": "babel src -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist": "babel src -d dist",
+    "test": "mocha --compilers js:babel/register"
   },
   "devEngines": {
     "node": "4.x",
     "npm": "2.x"
   },
   "author": "Josh Quintana (http://github.com/joshq00)",
-  "license": "ISC",
+  "license": "MIT",
   "repository": "joshq00/flore",
   "devDependencies": {
     "babel": ">=5.8",
