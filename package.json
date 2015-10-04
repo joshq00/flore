@@ -1,0 +1,25 @@
+{
+  "name": "flore",
+  "version": "1.0.0",
+  "description": "flux store",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+  	"dist": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devEngines": {
+    "node": "4.x",
+    "npm": "2.x"
+  },
+  "author": "Josh Quintana (http://github.com/joshq00)",
+  "license": "ISC",
+  "repository": "joshq00/flore",
+  "devDependencies": {
+    "babel": ">=5.8",
+    "chai": ">=3.3",
+    "mocha": ">=2"
+  }
+}
