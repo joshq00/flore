@@ -1,6 +1,6 @@
 {
   "name": "flore",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "flux store",
   "main": "dist/index.js",
   "files": [
